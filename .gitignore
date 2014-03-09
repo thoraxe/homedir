@@ -33,3 +33,7 @@ bin/
 .dbus/
 .workrave/
 Desktop/
+.eclipse/
+.openshift/
+Pictures/
+SpiderOakBlue Hive/
