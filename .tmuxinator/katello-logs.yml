@@ -1,0 +1,12 @@
+# ~/.tmuxinator/katello-logs.yml
+# you can make as many tabs as you wish...
+
+project_name: klogs
+project_root: /root
+tabs:
+  - foreman: tail -f /var/log/foreman/production.log
+  - delayed: tail -f /var/log/foreman/delayed_job.log
+  - pulp: tail -f /var/log/pulp/*
+  - candlepin: tail -f /var/log/candlepin/*
+  - tomcat: tail -f /var/log/tomcat6/*
+  - bash:
