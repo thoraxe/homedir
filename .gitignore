@@ -37,3 +37,8 @@ Desktop/
 .openshift/
 Pictures/
 SpiderOakBlue Hive/
+.gem/
+.gimp-2.8/
+.gist-vim
+.thumbnails/
+puppet
