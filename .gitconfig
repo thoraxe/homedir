@@ -3,3 +3,5 @@
 	name = Erik M Jacobs
 [github]
 	user = thoraxe
+[core]
+	excludesfile = /home/thoraxe/.gitignore_global

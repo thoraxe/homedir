@@ -9,4 +9,5 @@ tabs:
   - pulp: tail -f /var/log/pulp/*
   - candlepin: tail -f /var/log/candlepin/*
   - tomcat: tail -f /var/log/tomcat6/*
+  - httpd: tail -f /var/log/httpd/*
   - bash:
