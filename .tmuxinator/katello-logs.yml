@@ -5,6 +5,7 @@ project_name: klogs
 project_root: /root
 tabs:
   - foreman: tail -f /var/log/foreman/production.log
+  - foreman-proxy: tail -f /var/log/foreman-proxy/*
   - delayed: tail -f /var/log/foreman/delayed_job.log
   - pulp: tail -f /var/log/pulp/*
   - candlepin: tail -f /var/log/candlepin/*
