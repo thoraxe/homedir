@@ -5,3 +5,5 @@
 	user = thoraxe
 [core]
 	excludesfile = /home/thoraxe/.gitignore_global
+[push]
+	default = simple
