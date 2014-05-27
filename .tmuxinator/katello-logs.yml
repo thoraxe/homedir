@@ -5,10 +5,10 @@ project_name: klogs
 project_root: /root
 tabs:
   - foreman: tail -f /var/log/foreman/production.log
-  - foreman-proxy: tail -f /var/log/foreman-proxy/*
+  - foreman-proxy: tail -f /var/log/foreman-proxy/*.log
   - delayed: tail -f /var/log/foreman/delayed_job.log
-  - pulp: tail -f /var/log/pulp/*
-  - candlepin: tail -f /var/log/candlepin/*
-  - tomcat: tail -f /var/log/tomcat6/*
-  - httpd: tail -f /var/log/httpd/*
+  - pulp: tail -f /var/log/messages
+  - candlepin: tail -f /var/log/candlepin/*.log
+  - tomcat: tail -f /var/log/tomcat6/*.log
+  - httpd: tail -f /var/log/httpd/*log
   - bash:
