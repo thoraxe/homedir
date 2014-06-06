@@ -5,6 +5,8 @@ set autoindent
 "set nu
 set nowrap
 set hlsearch
+set expandtab
+set softtabstop=2
 au BufNewFile,BufRead *.html,*.htm,*.php,*.css,*.rb,*.md,*.haml,*.coffee set shiftwidth=2
 au BufNewFile,BufRead *.md set tw=80
 au BufRead,BufNewFile *.haml         setfiletype haml
@@ -13,6 +15,7 @@ au BufRead,BufNewFile *.coffee set expandtab softtabstop=2 list
 :imap <C-t> <ESC>:tabnew<cr>i
 :nmap Z :tabprev<cr>
 :nmap X :tabnext<cr>
+map <C-n> :NERDTreeToggle<CR>
 
 "set t_Co=256
 "set background=dark

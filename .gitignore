@@ -7,8 +7,7 @@
 .cache/
 .cert/
 .config/
-.dropbox-dist/
-.dropbox/
+.dropbox*
 .esd_auth
 .gstreamer-0.10/
 .icedtea/
