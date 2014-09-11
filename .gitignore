@@ -59,3 +59,16 @@ gnome.log
 rpmbuild/
 tm/
 tmux-stuff.tgz
+.Ticket to Ride/
+.collaborate/
+.fonts/
+.gnome/
+.gtk-recordmydesktop
+.install4j
+.pulse-cookie
+.ravello/
+.steam/
+.steampath
+.steampid
+.tt/
+.webex/
