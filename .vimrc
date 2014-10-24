@@ -16,6 +16,15 @@ au BufRead,BufNewFile *.coffee set expandtab softtabstop=2 list
 :nmap Z :tabprev<cr>
 :nmap X :tabnext<cr>
 map <C-n> :NERDTreeToggle<CR>
+"set statusline=
+"set statusline+=%<\                       " cut at start
+"set statusline+=%2*[%n%H%M%R%W]%*\        " flags and buf no
+"set statusline+=%-40f\                    " path
+"set statusline+=%=%1*%y%*%*\              " file type
+"set statusline+=%10((%l,%c)%)\            " line and column
+"set statusline+=%P                        " percentage of file
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c-%v\ %)%P
+set statusline+=%{fugitive#statusline()}
 
 "set t_Co=256
 "set background=dark
