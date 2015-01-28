@@ -1,0 +1,11 @@
+# ~/.tmuxinator/katello-logs.yml
+# you can make as many tabs as you wish...
+
+project_name: v3-origin
+project_root: /root
+tabs:
+  - openshift-master: 
+  - sdn-master: 
+  - sdn-minion: 
+  - openshift-node:
+  - journal: journalctl -f
