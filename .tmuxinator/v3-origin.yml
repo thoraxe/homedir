@@ -3,9 +3,10 @@
 
 project_name: v3-origin
 project_root: /root
-tabs:
-  - openshift-master: 
-  - sdn-master: 
-  - sdn-minion: 
-  - openshift-node:
-  - journal: journalctl -f
+windows:
+  - openshift-master: journalctl -f -l -u openshift-master
+  - sdn-master: journalctl -f -l -u openshift-sdn-master
+  - sdn-minion:  journalctl -f -l -u openshift-sdn-node
+  - openshift-node: journalctl -f -l -u openshift-node
+  - docker: journalctl -f -l -u docker
+  - bash:
