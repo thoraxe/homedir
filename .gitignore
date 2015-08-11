@@ -1,3 +1,9 @@
+.AndroidStudio1.3/
+.ansible/
+Crash Reports/
+Music/
+openshift_setup.retry
+.android
 .ICEauthority
 .bash_history
 .bash_logout
