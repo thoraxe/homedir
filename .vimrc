@@ -7,7 +7,7 @@ set nowrap
 set hlsearch
 set expandtab
 set softtabstop=2
-au BufNewFile,BufRead *.json,*.html,*.htm,*.php,*.css,*.rb,*.md,*.haml,*.coffee,*.jsp set shiftwidth=2
+au BufNewFile,BufRead *.sh,*.json,*.html,*.htm,*.php,*.css,*.rb,*.md,*.haml,*.coffee,*.jsp set shiftwidth=2
 au BufNewFile,BufRead *.md set tw=80
 au BufNewFile,BufRead *.adoc set nospell
 au BufRead,BufNewFile *.haml         setfiletype haml

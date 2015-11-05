@@ -1,5 +1,10 @@
 .AndroidStudio1.3/
 .ansible/
+.aws/
+.kde/
+.kube/
+.npm/
+kdenlive/
 Crash Reports/
 Music/
 openshift_setup.retry
