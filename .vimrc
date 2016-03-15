@@ -30,7 +30,7 @@ map <C-n> :NERDTreeToggle<CR>
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c-%v\ %)%P
 set statusline+=%{fugitive#statusline()}
 
-"set t_Co=256
-"set background=dark
+set t_Co=256
+set background=dark
 "colorscheme ir_black
 "syntax on
