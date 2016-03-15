@@ -95,4 +95,6 @@ liquidprompt/
 .positech/
 jbdevstudio/
 workspace/
-
+.gist
+*.retry
+Red_Hat
