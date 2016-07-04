@@ -7,13 +7,13 @@ set nowrap
 set hlsearch
 set expandtab
 set softtabstop=2
-au BufNewFile,BufRead *.sh,*.json,*.html,*.htm,*.php,*.css,*.rb,*.md,*.haml,*.coffee,*.jsp set shiftwidth=2
-au BufNewFile,BufRead *.md set tw=80
+set shiftwidth=2
+"au BufNewFile,BufRead *.yaml*.sh,*.json,*.html,*.htm,*.php,*.css,*.rb,*.md,*.haml,*.coffee,*.jsp set shiftwidth=2
+au BufNewFile,BufRead *.md,*.adoc set tw=80
 au BufNewFile,BufRead *.adoc set nospell
 au BufNewFile,BufRead *.adoc set ft=asciidoc
-au BufNewFile,BufRead *.adoc set tw=80
-au BufRead,BufNewFile *.haml         setfiletype haml
-au BufRead,BufNewFile *.yml         setfiletype yaml
+au BufRead,BufNewFile *.haml set ft=haml
+au BufRead,BufNewFile *.yml  set ft=yaml
 au BufRead,BufNewFile *.coffee set expandtab softtabstop=2 list
 :nmap <C-t> :tabnew<cr>
 :imap <C-t> <ESC>:tabnew<cr>i
