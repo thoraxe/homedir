@@ -98,3 +98,25 @@ workspace/
 .gist
 *.retry
 Red_Hat
+.VSCodeVim/
+.awscred
+.awscred-bu
+.awscred-eng
+.boto
+.bundle/
+.esmtp_queue/
+.pencil/
+.pylint.d/
+.python-eggs/
+.ssr/
+.vscode/
+.wget-hsts
+.wskprops
+.zoom/
+Groups Hive/
+SpiderOak Hive/
+ansible-systems/
+blender-2.79b-linux-glibc219-x86_64/
+node_modules/
+package-lock.json
+signal/
